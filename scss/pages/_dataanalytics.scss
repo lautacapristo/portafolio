@@ -1,0 +1,38 @@
+   //Data analitycs
+   .h2DA{
+    display: flex;
+margin-top: -0.2em;
+padding: 0.8em;
+font-size:  2.3em;
+font-weight: bold;
+  }
+  .alturaCarousel {
+    height: 51em;
+  }
+
+.tamañoCarousel {
+width: 50em;
+height: 27em;
+max-width: 50em;
+max-height: 50em;
+  }
+
+.carousel-control-next-icon{
+background-image: url("../../fotos/arrow-right-circle-fill.svg")!important;
+  }
+  .carousel-control-prev-icon{
+    background-image: url("../../fotos/arrow-left-circle-fill.svg")!important;
+  }
+
+  .DAdescripcion {
+    font-size: 1.5em;
+  }
+  .DAboton {
+    background-color:  rgb(27, 102, 102)!important;
+    color: #fff;
+    margin-bottom: 4em;
+    border-radius: 1em;
+}
+.DAboton:hover{
+    background-color: rgb(8, 31, 26)!important;
+}

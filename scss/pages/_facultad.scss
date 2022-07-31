@@ -1,0 +1,63 @@
+//facultad
+.alturaFacultad {
+    height: 38em;
+        }
+        .h2Eu {
+            font-size:  2.3em;
+            font-weight: bold;
+            margin-bottom: -1em;
+        }
+    
+        .facultad {
+            width: 100%;
+            max-width: 98rem;
+            height: 23.6em;
+            padding: 0.3em;
+            background-color: rgb(255, 247, 248);
+            box-shadow: rgba(3, 102, 214, 0.3) 1px 3px 3px 3px;
+            display: flex;
+            align-items: center;
+            margin-left: 8em;
+            border-radius: 1em;
+        }
+        .facultad__img{
+            min-width: 19.7rem;
+            max-width: 35rem;
+            height: 13em;
+            position: relative;
+            transform: translateX(-7.1rem);
+        }
+    
+        .imgFacultad {
+            width: 23em;
+            height: 13em;
+            margin-left: 2em;
+            border-radius: 1em;
+            box-shadow: rgba(255, 255, 255, 0.2) 0px 0px 0px 1px inset, rgba(0, 0, 0, 0.9) 0px 0px 0px 1px;
+        }
+        .bodyFacultad {
+            display: flex;
+            align-items: center;
+            
+        }
+        .facultad__date{
+            font-size: 1.4em;
+        }
+        .facultad__title {
+            font-size: 2.5em;
+        }
+        .facultad__text {
+            font-size: 1.1em;
+        }
+    
+        //aptitudes 
+        .aptitudes {
+            border-left: 3px double black;
+        border-right: 3px double black;
+        border-top: 10px solid black;
+        padding: 2.7rem;
+        border-radius: 1em;
+        font-size: 1em;
+        margin-left: 1.3em;
+        margin-right: 1.3em;
+        }

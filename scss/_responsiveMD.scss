@@ -1,23 +1,162 @@
-@media screen and (max-width: 786px) {
-// nav
-.centerNav{
-    justify-content: center;
+@media (min-width: 576px) and (max-width: 768px) {
+    .centerNav{
+        justify-content: center;
+        }
+        
+            // Presentacion
+        .alturaCuerpoPresentacion {
+            height: 40.1em !important;
+            padding: 4.3em;      
+            overflow-x: hidden;
+            
+        }
+        .divPresentacion1 {
+            font-size: 1.2em;
+        }
+        .btn1 {
+            display: block;
+            margin-left: auto;
+            margin-right: auto;
+            margin-top: 3.3em; 
+        }   
+    
+        .imgSobreMi {
+            margin-top: 2.7em;
+        width: 20em;
+        height: 14em; 
+        }
+        .alturaCuerpoSobreMi {
+            height: 38em !important;
+        }
+        //frontend
+        .alturaFrontEnd {
+            height: 122em !important;
+        }
+        .card-deck .card {
+        flex: none;
+      
+        }
+        .cardsFe {
+            max-height: 40em;
+        }
+        //da
+        .tamañoCarousel {
+            width: 28em;
+            height: 17em; 
+        }
+    //facultad
+    .alturaFacultad {
+         height: 64em;
     }
     
-        // Presentacion
-    .alturaCuerpoPresentacion {
-        height: 40.1em;
-        padding: 4.3em;      
-        overflow-x: hidden;
-        
+   
+    .facultad {
+        // display: none;
+        height: 35.5em;
+        max-width: 65%;
+        width: 20em;
+        margin-left: auto;
+        margin-right: auto;
+        padding: 1.2em;
+        display: inline;
     }
-    .divPresentacion1 {
-        font-size: 1.2em;
+    .facultad__img {
+        height: 10em;
+        width: 17em;
+        margin-left: auto;
+        margin-right: auto;
+       transform: none;
     }
-    .btn1 {
+    .imgFacultad {
+        width: 14.2em;
+        height: 9.4em;        
+    }
+    .facultad__info {
+        font-size: 1.1em;
+    } 
+     .facultad__date {
+        margin-top: 1.2em;
+    }
+    //aptitudes 
+    .aptitudesGeneral {
+        margin-left: 0.75em;
+        margin-right: 0.75em;
+       
+    }
+    .aptitudes {
+        margin-left: auto;
+        margin-right: auto;
+    }
+    
+    //tecnologias
+    .tecnologiasImgs {
         display: block;
         margin-left: auto;
         margin-right: auto;
-        margin-top: 3.3em; 
-    }   
+       
     }
+    .skills {
+        margin-top: 1em;
+    }
+    
+    
+        //contacto 
+        .formContacto {
+            margin-left: auto;
+            margin-right: auto;
+            
+        }
+}
+// @media screen and (max-width: 768px) {
+// nav
+
+    // }
+
+    // @media screen and (min-width: 636px) { 
+       
+    //     }
+    @media (min-width: 768px) and (max-width:1040px) {
+        .tamañoCarousel {
+            width: 40em;
+            height: 22em;
+        }
+       
+        .alturaFacultad {
+            height: 68em !important;
+        }
+        .facultad {
+            // display: none;
+            height: 38em;
+            max-width: 65%;
+            width: 20em;
+            margin-left: auto;
+            margin-right: auto;
+            padding: 1.2em;
+            display: inline;
+        }
+        .facultad__img {
+            height: 10em;
+            width: 17em;
+            margin-left: auto;
+            margin-right: auto;
+           transform: none;
+        }
+        .imgFacultad {
+            width: 17.2em;
+            height: 10.8em;        
+        }
+        .facultad__info {
+            font-size: 1.1em;
+        }
+        .facultad__date {
+            margin-top: 1.2em;
+        }
+        .alturaCuerpoSobreMi {
+            height: 32em;
+            padding: 1.5em;
+        }
+        .skills {
+            margin-top: 1em;
+        }
+    }
+  
