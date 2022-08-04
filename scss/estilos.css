@@ -1,6 +1,7 @@
 @charset "UTF-8";
 html {
   scroll-behavior: smooth;
+  overflow-x: hidden;
 }
 
 .Navegador {
@@ -192,7 +193,7 @@ html {
 .DAboton {
   background-color: rgb(27, 102, 102) !important;
   color: #fff;
-  margin-bottom: 4em;
+  margin-bottom: 2.3em;
   border-radius: 1em;
 }
 
@@ -206,7 +207,7 @@ html {
 }
 
 .h2Eu {
-  font-size: 2.3em;
+  font-size: 2.05em;
   font-weight: bold;
   margin-bottom: -1em;
 }
@@ -315,7 +316,7 @@ html {
 }
 
 .skills {
-  width: 4.1em;
+  width: 3.6em;
   height: 3.44em;
   transition: transform 0.2s;
 }
@@ -421,6 +422,7 @@ html {
 @media screen and (max-width: 374px) {
   .alturaFrontEnd {
     margin-top: 60em !important;
+    height: 129em;
   }
   .psobreMi {
     font-size: 1.27em !important;
@@ -490,6 +492,7 @@ html {
     width: 20em;
     margin-left: auto;
     margin-right: auto;
+    margin-bottom: 1.2em;
     padding: 0.7em;
     display: inline;
   }
