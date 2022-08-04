@@ -7,6 +7,14 @@ html {
     font-weight: bold;
     font-size: 1em;
 }
+.fix {
+position: sticky !important; 
+width: 100% ;
+top: 0 ;
+z-index: 100 ;
+background-color: white;
+
+} 
 
 .alturaNav {
     height: 5em;
