@@ -198,6 +198,7 @@ html {
 
 .DAboton:hover {
   background-color: rgb(8, 31, 26) !important;
+  color: white !important;
 }
 
 .alturaFacultad {
@@ -561,6 +562,7 @@ html {
   }
   .cardsFe {
     max-height: 40em;
+    max-width: 23em;
   }
   .tamañoCarousel {
     width: 28em;
